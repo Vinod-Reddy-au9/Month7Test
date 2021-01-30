@@ -28,3 +28,24 @@ Ans:    Caching is the process of storing data in a cache. A cache is a temporar
             4. Distributed Caching
 
         
+3) Differentiate between RPC and REST.
+
+Ans:    RPC-based APIs are great for actions eg. commands. 
+        REST-based APIs are great for modeling your domain eg. resources, 
+        making CRUD (create, read, update, delete) available for all of your data.
+
+
+4) Explain OWASP Top 10 vulnerabilities.
+
+5) What is HTTP? Differentiate between HTTP and TCP. Differentiate between GET,
+POST, PUT and PATCH.
+
+6) Explain How DNS works.
+
+7) Explain CDN and HOW it works. Does it use some caching technique?
+
+8) Differentiate between SQL and NO-SQL database?
+
+9) Explain Producer-Consumer problem.
+
+10) Differentiate between normalization and denormalization.
