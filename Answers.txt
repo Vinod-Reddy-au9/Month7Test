@@ -37,15 +37,80 @@ Ans:    RPC-based APIs are great for actions eg. commands.
 
 4) Explain OWASP Top 10 vulnerabilities.
 
-5) What is HTTP? Differentiate between HTTP and TCP. Differentiate between GET,
-POST, PUT and PATCH.
+Ans:    Injection        
+        Broken authentication
+        Sensitive data exposure
+        XML external entities (XXE)
+        Broken access control
+        Security misconfigurations
+        Cross-site scripting (XSS)
+        Insecure deserialization
+        Using components with known vulnerabilities
+        Insufficient logging and monitoring
+
+5) What is HTTP? Differentiate between HTTP and TCP. Differentiate between GET, POST, PUT and PATCH.
+
+Ans:    HTTP is an abbreviation for ‘HyperText Transfer Protocol’. It is a networking protocol used for distributed, collaborative, hypermedia
+        information systems. HTTP is the foundation of data communication for World Wide Web it means that it transfers the data on WWW.
+        In other words, HTTP establishes communication between different systems to transfer the hypertext from client-end to the server-end.
+        It basically allows the transmission of data from a web server to a web browser in order to display web pages to the users.
+        HTTP is also known as ‘a stateless system' because each command is executed separately, without using the reference of the previous run command.
+
+        HTTP is a Hypertext Transfer Protocol. HTTP is utilized to access websites
+        TCP full form is Transmission Control Protocol.  while TCP is a session establishment protocol between client and server
+
+        POST is always for creating a resource
+        PUT is for checking if resource is exists then update , else create new resource.
+        PATCH is always for update a resource.
 
 6) Explain How DNS works.
 
+Ans:    DNS stands for
+            D: domain
+            N: Name
+            S: System
+
+        It’s a system that lets you connect to websites by matching human-readable domain names (like wpbeginner.com) with the unique ID 
+        of the server where a website is stored.
+
 7) Explain CDN and HOW it works. Does it use some caching technique?
+
+Ans:    CDN stands for 
+        C: Content
+        D: Delivery
+        N: network
+
+        A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos.
+
+        Caching is a technique to speed up data lookups (data reading). Instead of reading the data directly from it source, which could be a database or another
+        remote system, the data is read directly from a cache on the computer that needs the data.
 
 8) Differentiate between SQL and NO-SQL database?
 
+Ans:    
+        SQL
+            SQL databases are relational
+            SQL databases use structured query language
+            SQL databases are table based
+
+        NoSQL
+            NoSQL are non-relational.  and have a predefined schema. 
+            NoSQL databases have dynamic schemas for unstructured data.
+            NoSQL databases are document, key-value, graph or wide-column stores
+
 9) Explain Producer-Consumer problem.
 
+Ans:    Producer-Consumer problem is also known as the bounded-buffer problem is a multi-process synchronizationproblem.
+        The problem describes two processes, the producer and the consumer.
+
+        Producer:
+                    The producer's job is to generate a piece of data, put into the buffer and start again.
+
+        Consumer:   
+                    The consumer is consuming the data.
+
 10) Differentiate between normalization and denormalization.
+
+Ans:    Normalization is used to remove redundant data from the database and to store non-redundant and consistent data into it.
+        Denormalization is used to combine multiple table data into one so that it can be queried quickly
+        Denormalization does not maintain any data integrity.
