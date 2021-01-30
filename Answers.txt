@@ -1,0 +1,30 @@
+1) What is the CAP theorem? Differentiate between forward proxy and reverse proxy. 
+
+Ans:    CAP theorem is also known as Brewer's theorem.
+        CAP stands for 
+            C: consistency
+                Consistency means that all clients see the same data at the same time, no matter which node they connect to.
+
+            A: Availability
+                Availability means that that any client making a request for data gets a response, even if one or more nodes are down.
+
+            P: partition tolerance
+                A partition is a communications break within a distributed system—a lost or temporarily delayed connection between two nodes.
+
+        A distributed system is a network that stores data on more than one node at the same time.
+
+        Forward proxy is used by the client 
+        Reverse proxy is used by the server
+
+
+2) What is Caching and what are the different types of cache. What are the different ways to update cache?
+
+Ans:    Caching is the process of storing data in a cache. A cache is a temporary storage area. It saves the logs each and everytime.
+
+        Types of cache: 
+            1. Web Caching 
+            2. Data Cachin
+            3. Application/Output Caching
+            4. Distributed Caching
+
+        
